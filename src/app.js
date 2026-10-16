@@ -12,6 +12,15 @@ app.get('/', (req, res) => {
     res.send('API backendUpb funcionando');
 });
 
+// Endpoint de prueba para comprobar que el deploy está activo
+app.get('/api/status', (req, res) => {
+    res.json({
+        status: 'ok',
+        mensaje: 'Deploy funcionando desde GitHub Actions',
+        timestamp: new Date().toISOString(),
+    });
+});
+
 app.use('/api/productos', productoRoutes);
 
 // Ruta no encontrada
