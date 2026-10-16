@@ -18,6 +18,14 @@
       }
     },
     {
+      "name": "Status del deploy",
+      "request": {
+        "method": "GET",
+        "description": "Endpoint de prueba para comprobar que el deploy desde GitHub Actions está activo",
+        "url": { "raw": "{{baseUrl}}/api/status", "host": ["{{baseUrl}}"], "path": ["api", "status"] }
+      }
+    },
+    {
       "name": "Listar productos",
       "request": {
         "method": "GET",
