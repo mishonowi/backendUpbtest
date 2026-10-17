@@ -5,9 +5,9 @@
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "variable": [
-    { "key": "baseUrl", "value": "http://localhost:3000", "description": "Local: levanta el servidor con npm run dev" },
-    { "key": "prodUrl", "value": "https://backendupbtest.onrender.com", "description": "Producción (Render): copia este valor en baseUrl cuando el servicio esté desplegado" },
-    { "key": "id", "value": "2", "description": "Id del producto a consultar, actualizar o eliminar" }
+    { "key": "baseUrl", "value": "https://backendupbtest-lu2v.onrender.com", "description": "Producción (Render)" },
+    { "key": "localUrl", "value": "http://localhost:3000", "description": "Local: copia este valor en baseUrl para probar en tu PC (npm run dev)" },
+    { "key": "id", "value": "1", "description": "Id del producto a consultar, actualizar o eliminar" }
   ],
   "item": [
     {
